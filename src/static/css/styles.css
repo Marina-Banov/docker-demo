@@ -1,0 +1,43 @@
+body {
+  background-color: #f4f4f4;
+  margin-top: 50px;
+  font-family: "Lato";
+}
+
+.item {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: transparent;
+  border-radius: 5px;
+  box-shadow: 0 0 1em #ccc;
+  transition: all .2s ease-in-out;
+}
+
+.item:hover {
+  box-shadow: 0 0 1em #aaa;
+}
+
+.toggles {
+  color: #198754;
+  font-size: 1.15em;
+}
+.toggles:hover, .toggles:focus, .toggles:focus-visible, .toggles:active {
+  color: #146c43 !important;
+}
+
+.name {
+  padding-top: 3px;
+  padding-left: 18px;
+}
+
+.remove {
+  padding-left: 0;
+}
+
+.toggles:focus, .toggles:focus-visible {
+  box-shadow:  0 0 0 0.25rem rgba(25, 135, 84, .5);
+}
+.remove button:focus, .remove button:focus-visible {
+  box-shadow:  0 0 0 0.25rem rgba(220, 53, 69, .5);
+}
